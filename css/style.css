@@ -16,7 +16,7 @@ html {
 
 /* Typography */
 h1,h2,h3, .btn {
-  font-family: 'Montserrat', sans-serif;
+	font-family: 'Handlee', cursive;
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -46,7 +46,9 @@ h3 {
   padding-bottom: 10px;
 }
 #menu h3 {
-   color: #555;
+   color: #500077;
+	 text-transform: uppercase;
+	 font-weight: bold;
 }
 
 h4 {
@@ -220,6 +222,7 @@ a:focus {
 #home .btn:hover,
 #home .btn:focus {
   color: #500077;
+	font-weight: bold;
 }
 
 
@@ -320,6 +323,9 @@ a:focus {
   font-size: 36px;
   margin: 0;
   padding: 0;
+}
+span {
+	font-family: 'Handlee', cursive;
 }
 
 #feature h3 {
@@ -782,7 +788,7 @@ footer strong {
     padding: 15px;
     border-radius: 50px;
     width: 250px;
-  }
+	}
 
   #btn-contagem {
     background-color: #500077;
@@ -818,7 +824,7 @@ footer strong {
     margin-top: 8px;
   }
   .contador span {
-    font-size: 70px;
+    font-size: 50px;
     color: #cccccc;
   }
 
@@ -945,12 +951,18 @@ footer strong {
 
 @media (max-width: 678px) {
   .img-logo img{
-    width: 50px;
+    width: 40px;
+		padding-left: 5px;
+		padding-top: 5px;
   }
 
   #about .fa{
     color: #500077 !important;
   }
+
+	.img-pay-me img{
+		width: 300px;
+	}
 
   #contact h2 {
     font-size: 20px;
@@ -958,6 +970,16 @@ footer strong {
   #video p {
     font-size: 15px;
   }
+
+	.desc-sit {
+		padding-left: 20px;
+	}
+	.desc-sit p {
+		font-size: 15px;
+	}
+	.desc-sit h3 {
+		padding-left: 10px;
+	}
 
   .signature {
     height: 30px;
@@ -1049,6 +1071,8 @@ footer strong {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
+
 
   #about,
   #feature,
