@@ -35,6 +35,7 @@ h2 {
 }
 #contact h2 {
   color: #ffffff;
+
 }
 
 h3 {
@@ -659,7 +660,7 @@ a:focus {
 
 /* Contact section  */
 #contact {
-  background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/slide-img3.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
